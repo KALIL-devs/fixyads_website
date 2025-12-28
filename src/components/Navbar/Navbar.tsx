@@ -18,7 +18,7 @@ const Navbar = () => {
           <Link href="/services" className={styles.navLink}>Services</Link>
           <Link href="/courses/digital-marketing" className={styles.navLink}>Courses</Link>
           <Link href="/about" className={styles.navLink}>About</Link>
-          <Link href="/blog" className={styles.navLink}>Blog</Link>
+          {/* <Link href="/blog" className={styles.navLink}>Blog</Link> */}
         </nav>
           
         <nav>

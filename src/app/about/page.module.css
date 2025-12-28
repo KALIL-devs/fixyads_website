@@ -1,20 +1,20 @@
 .hero {
     text-align: center;
-    padding: 6rem 0;
-    background: var(--muted-light);
+    padding: 3rem 0;
+    background: var(--primary);
 }
 
 .heroTitle {
     font-size: 3rem;
     margin-bottom: 1.5rem;
-    color: #111;
+    color: #ffffff;
 }
 
 .heroText {
     max-width: 800px;
     margin: 0 auto;
     font-size: 1.25rem;
-    color: var(--muted);
+    color: rgb(255, 255, 255);
 }
 
 .section {
@@ -63,6 +63,7 @@
 }
 
 .memberName {
+    color: #1a1a1a;
     font-size: 1.25rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
@@ -93,6 +94,16 @@
 .statLabel {
     font-size: 1.1rem;
     opacity: 0.9;
+}
+
+.content{
+    h1, h2, h3,h4{
+        color: black;
+    }
+    p{
+        color: #1a1a1a;
+    }
+
 }
 
 @media (max-width: 768px) {

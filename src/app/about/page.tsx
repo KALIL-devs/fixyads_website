@@ -20,8 +20,10 @@ export default function AboutPage() {
 
             <section className={`${styles.section} container`}>
                 <div className={styles.grid}>
-                    <div className={styles.imagePlaceholder}>Team Photo</div>
-                    <div>
+                    <div style={{ width: '100%', height: 'auto', display:'block', marginTop:'15px'}}>
+                        <img src="/aboutus/aboutus.png" alt="Hero Image"/>
+                    </div>
+                    <div className={styles.content}>
                         <h2>Our Story</h2>
                         <p className="mb-4">
                             Founded in 2020, we started with a simple mission: to bridge the gap between industry requirements and available talent while providing top-notch digital services to businesses.
@@ -61,7 +63,7 @@ export default function AboutPage() {
             </div>
 
             <section className={`${styles.section} container`}>
-                <h2 className="text-center mb-4">Meet Our Team</h2>
+                <h2 className="text-center mb-4 team" style={{color:'black'}} >Meet Our Team</h2>
                 <div className={styles.teamGrid}>
                     <div className={styles.teamMember}>
                         <div className={styles.memberImage}>Photo</div>
