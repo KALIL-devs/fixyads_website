@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import styles from './Hero.module.css';
 import { useEffect, useRef } from 'react';
+import BubblesCloud from '../BubblesCloud/BubblesCloud'
 
 const Hero = () => {
   const sectionRef = useRef<HTMLElement | null>(null);
@@ -34,12 +35,16 @@ const Hero = () => {
             </div>
           </div>
 
-          <div className={styles.imageWrapper}>
+          {/* <div className={styles.imageWrapper}>
             <img
               src="/Hero_images_planner/image-1.png"
               alt="Digital Marketing Growth"
               className={styles.heroImage}
             />
+          </div> */}
+
+          <div className={styles.imageWrapper}>
+            <BubblesCloud />
           </div>
 
         </div>
