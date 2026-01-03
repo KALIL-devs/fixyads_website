@@ -34,7 +34,7 @@ const Footer = () => {
                     <h3>Contact</h3>
                     {/* <p>54/A, Chinnakadai Street, Muthaiahpillay Lane, Madurai, India, Tamil Nadu</p> */}
                     <p>Email: fixyads@gmail.com</p>
-                    <p>Phone: +91 93613 65680</p>
+                    <p>Phone: +91 84380 83853</p>
                     <div style={{display: 'flex', flexDirection: 'row'}}>
                         <a href="https://www.instagram.com/fixyads/">
                             <img src="/SocialMedia/instagram.png" alt="" style={{height:'50px', width:'50px'}}/>
